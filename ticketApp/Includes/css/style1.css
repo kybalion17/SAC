@@ -1,0 +1,228 @@
+
+
+.titulo_input {
+    font-size: 14px;
+    font-family: ProximaNova-Semibold;
+    line-height: 22px;
+    color: #72706f;
+}
+
+ .titulointerno {
+	font-size: 30px;
+    font-family: ProximaNova-Semibold;
+    line-height: 50px;
+    color: #ffcc00;
+    align-content: center!important;
+    text-align: center!important;
+}
+
+
+.panel-body {
+	padding: 15px;
+	background-color: #f5f5f5c4  !important;
+}
+
+.panel-primary>.panel-heading+.panel-collapse>.panel-body {
+    border-top-color: #72706f;
+}
+
+.panel-primary>.panel-heading {
+    color: #72706f!important;
+    background-color: #ffcc00!important;
+    border-color: #72706f!important;
+}
+
+.panel-primary {
+    border-color: #72706f!important;
+}
+
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: inherit;
+    font-weight: bold!important;
+}
+
+.mandatory {
+    color: #fe1414!important;
+}
+
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('../img/298.gif') 50% 50% no-repeat rgb(255,255,255);
+    opacity: .8;
+}
+
+.mlogin {
+    border: 1px solid #f6e18c;
+    padding: 3px;
+    width: 85% !important;
+    padding: 10px 16px 5px 0px;
+    overflow: hidden;
+    border-radius: 50px !important;
+}
+
+.container {
+	background: #5a5a5a05;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 0px 0px 5px 5px;
+	padding-right: 25px !important;
+	padding-left: 25px !important;
+	margin-right: auto !important;
+	margin-left: auto !important;
+}
+.container h2 {
+	font-size: 28px;
+	font-family: ProximaNova-Semibold;
+	line-height: 22px;
+	color: #02336b;
+	margin: 19px 0 22px;
+}
+
+ .container2 {
+	background: #ffffff;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 0px 0px 5px 5px;
+	padding-right:15px;
+	padding-left:15px;
+	margin-right:auto;
+	margin-left:auto;
+
+}
+
+
+.button_register{
+	height: 20px;
+	width: 100px;
+	margin: 26px -140px;
+	position: relative;
+	top: 50%;
+	left: 50%;
+}
+
+.btn-success {
+    color: #434040d1!important;
+    background-color: #eec82ff0!important;
+    border-color: #ffcc00!important;
+}
+
+.btn-success:hover {
+    color: #cc0000!important;
+    background-color: #eec82ff0!important;
+    border-color: #ffcc00!important;
+}
+
+.separador{
+    padding: 10px!important;
+}
+
+.innerClient{
+    display: inline-block;
+}
+
+.client {
+    background-color: #ffde5b80;
+    color: rgb(15, 15, 15);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    font-size: 100%;
+    width: 80%;
+    height: 75px;
+    text-transform: capitalize;
+    display: inline-block;
+}
+
+
+.client_called {
+    background-color: #b1cc00;
+    color: rgb(15, 15, 15);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    font-size: 100%;
+    width: 80%;
+    height: 75px;
+    text-transform: capitalize;
+    display: inline-block;
+}
+
+.client-side-container{
+    margin-top: 15 px;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 5px;
+    height: 300px;
+    overflow-y: scroll;
+
+}
+
+.label_client_box{
+	font-weight: bold!important;
+	color: #72706f!important;
+	
+}
+
+.label_tiempo_atencion{
+	font-weight: bold!important;
+	color: #cc0000!important;
+}
+
+.button_atender_ticket {
+    height: 20px;
+    margin: 5px -140px;
+    position: relative;
+    left: 100%;
+}
+
+.countdown_cola1 {
+    color: #cc0000;
+    font-size: 20px;
+    text-align: left;
+    align-content: center;
+    padding-left: 40px;
+}
+
+.countdown_cola2 {
+    color: #cc0000;
+    font-size: 20px;
+    text-align: left;
+    align-content: center;
+    padding-left: 40px;
+}
+
+
+
+
+input[type=submit]:hover {
+    background: #1b4d9c;
+}
+
+input[type=submit] {
+    font-size: 17px;
+    text-transform: uppercase;
+    display: block;
+    border: none;
+    color: #fff;
+    background: rgba(236,28,36,.9);
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 10px 15px 9px;
+}
+
+
+span {
+    font-weight: 300;
+    color: #ffcc00;
+}
+
