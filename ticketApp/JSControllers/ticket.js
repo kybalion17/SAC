@@ -177,6 +177,7 @@ app.controller("ticket",function($scope,$http,$rootScope,$interval){
 	$scope.atenderTicketCola1 = function(){
 		$scope.listClientInformationWaitingCola1[0].status = 2;
 		$scope.changeStatusClient($scope.listClientInformationWaitingCola1[0].ticket_number,2);
+		
 		$('#btn_llamado_cola1').attr('disabled', true);
 		$('#countdown_cola1').show();
  
@@ -200,6 +201,7 @@ app.controller("ticket",function($scope,$http,$rootScope,$interval){
 				$('#btn_llamado_cola1').attr('disabled', false);
 				$scope.changeStatusClient($scope.listClientInformationWaitingCola1[0].ticket_number,3);
 				$scope.listClientInformationWaitingCola1.shift();
+				$scope.sumTiempoTotalCola1 = $scope.sumTiempoTotalCola1 - 2;
 				$('#countdown_cola1').hide();
 			}
 		
@@ -233,6 +235,7 @@ app.controller("ticket",function($scope,$http,$rootScope,$interval){
 				$('#btn_llamado_cola2').attr('disabled', false);
 				$scope.changeStatusClient($scope.listClientInformationWaitingCola2[0].ticket_number,3);
 				$scope.listClientInformationWaitingCola2.shift();
+				$scope.sumTiempoTotalCola2 = $scope.sumTiempoTotalCola2 - 3;
 				$('#countdown_cola2').hide();
 			}
 		
